@@ -1,0 +1,11 @@
+.box {
+    border-bottom: 0.25rem dotted black;
+    padding: 2rem;
+}
+
+#intro {
+    padding: 2rem;
+    font-size: 3rem;
+    border-bottom: 0.25rem dashed black;
+    line-height: 110%;
+}
