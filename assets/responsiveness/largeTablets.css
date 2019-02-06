@@ -1,0 +1,7 @@
+/* screens up to ipad pro */
+
+@media (max-width: 1025px) {
+    p {
+        font-size: 115%;
+    }
+}

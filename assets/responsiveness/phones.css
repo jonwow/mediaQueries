@@ -1,2 +1,11 @@
 /* usual viewport of phones. */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    summary {
+        padding: 0.23em;
+        font-size: 9vmin;
+    }
+
+    h1 {
+        font-size: 25vmin;
+    }
+}
