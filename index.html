@@ -1,100 +1,131 @@
 <!DOCTYPE html>
+
 <html lang="en">
+    <head>
+        <title>testing media queries</title>
 
-<head>
-    <title>testing media queries</title>
+        <!-- seo + responsive metadata tags. -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- seo + responsive metadata tags. -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- main stylesheets. -->
+        <link rel="stylesheet" href="assets/customStyles.css" />
+        <link rel="stylesheet" href="assets/fonts.css" />
+        <link rel="stylesheet" href="assets/ids.css" />
+        <link rel="stylesheet" href="assets/images.css" />
+        <link rel="stylesheet" href="assets/main.css" />
 
-    <!-- main stylesheets. -->
-    <link rel="stylesheet" href="assets/customStyles.css">
-    <link rel="stylesheet" href="assets/fonts.css">
-    <link rel="stylesheet" href="assets/ids.css">
-    <link rel="stylesheet" href="assets/images.css">
-    <link rel="stylesheet" href="assets/main.css">
+        <!-- stylesheets related to website's responsiveness.-->
+        <link rel="stylesheet" href="assets/responsiveness/largeTablets.css" />
+        <link rel="stylesheet" href="assets/responsiveness/phones.css" />
+    </head>
 
-    <!-- stylesheets related to website's responsiveness.-->
-    <link rel="stylesheet" href="assets/responsiveness/largeTablets.css">
-    <link rel="stylesheet" href="assets/responsiveness/phones.css">
-</head>
+    <body>
+        <header>
+            <h1>Lovely Animals</h1>
+        </header>
 
-<body>
-    <header>
-        <h1>Lovely Animals</h1>
-    </header>
+        <main>
+            <div class="container">
+                <!--  intro. -->
+                <div id="intro">
+                    <p>This is my list of the coolest animals:</p>
+                    <p class="notImportant">
+                        (I'm a dog person so the variety of animals is fairly
+                        small)
+                    </p>
+                </div>
 
-    <main>
-        <div class="container">
-            <!--  intro. -->
-            <div id="intro">
-                <p>This is my list of the coolest animals:</p>
-                <p class="notImportant">(I'm a dog person so the variety of animals is fairly small)</p>
+                <!-- dog #1 -->
+                <section class="box">
+                    <!-- not using headings for 'minititles' as they would likely mess up the SEO. -->
+                    <p class="miniTitle">A really good boy</p>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                        alt="really-good-boy"
+                        class="dog-picture"
+                    />
+
+                    <p class="breed">Shiba-Inu</p>
+                    <p>
+                        Usually doing really cute tricks. NOT to be confused
+                        with Akita-Inu.
+                    </p>
+
+                    <p>
+                        Photo credits:
+                        <a href="https://unsplash.com/photos/Aka2x2D4Ph0"
+                            >Christal Yuen</a
+                        >.
+                    </p>
+                </section>
+
+                <!-- dog #2 -->
+                <section class="box">
+                    <p class="miniTitle">A somewhat good boy</p>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2175&q=80"
+                        alt="somewhat-good-boy"
+                        class="dog-picture"
+                    />
+
+                    <p class="breed">
+                        Absolutely no idea what the breed is but he looks like a
+                        good boy
+                    </p>
+                    <p>Reminds of a mini wolf that is ten times as cute.</p>
+
+                    <p>
+                        Photo credits:
+                        <a href="https://unsplash.com/photos/ybHtKz5He9Y"
+                            >Lui Peng</a
+                        >.
+                    </p>
+                </section>
+
+                <!-- dog #3 -->
+                <section class="box">
+                    <p class="miniTitle">A wise doggo</p>
+
+                    <img
+                        src=" https://images.unsplash.com/photo-1507660392550-9aff6e04c7e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80"
+                        alt="wise-doggo"
+                        class="dog-picture"
+                    />
+
+                    <p class="breed">
+                        I don't know what the breed is but he looks really wise
+                    </p>
+
+                    <p>
+                        Noone knows what he's thinking about but it must be
+                        really important!
+                    </p>
+                    <p>
+                        Photo credits:
+                        <a href="https://unsplash.com/photos/vRNcSWIElE4"
+                            >Vincent van Zalinge</a
+                        >.
+                    </p>
+                </section>
+
+                <summary>
+                    <p>I hope this list was interesting for you!</p>
+                    <p>
+                        If you liked any of the photos, please support the
+                        photographers or visit
+                        <a href="https://unsplash.com">unsplash.com</a>
+                    </p>
+                </summary>
             </div>
+        </main>
 
-            <!-- dog #1 -->
-            <section class="box">
-                <!-- not using headings for 'minititles' as they would likely mess up the SEO. -->
-                <p class="miniTitle">A really good boy</p>
-
-                <img src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
-                    alt="really-good-boy" class="dog-picture">
-
-                <p class="breed">Shiba-Inu</p>
-                <p>Usually doing really cute tricks. NOT to be confused with Akita-Inu.</p>
-
-                <p>
-                    Photo credits:
-                    <a href="https://unsplash.com/photos/Aka2x2D4Ph0">Christal Yuen</a>.
-                </p>
-            </section>
-
-            <!-- dog #2 -->
-            <section class="box">
-                <p class="miniTitle">A somewhat good boy</p>
-
-                <img src="https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2175&q=80"
-                    alt="somewhat-good-boy" class="dog-picture">
-
-                <p class="breed">Absolutely no idea what the breed is but he looks like a good boy</p>
-                <p>Reminds of a mini wolf that is ten times as cute.</p>
-
-                <p>
-                    Photo credits:
-                    <a href="https://unsplash.com/photos/ybHtKz5He9Y">Lui Peng</a>.
-                </p>
-            </section>
-
-            <!-- dog #3 -->
-            <section class="box">
-                <p class="miniTitle">A wise doggo</p>
-
-                <img src=" https://images.unsplash.com/photo-1507660392550-9aff6e04c7e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80"
-                    alt="wise-doggo" class="dog-picture">
-
-
-                <p class="breed">I don't know what the breed is but he looks really wise</p>
-
-                <p>Noone knows what he's thinking about but it must be really important!</p>
-                <p>
-                    Photo credits:
-                    <a href="https://unsplash.com/photos/vRNcSWIElE4">Vincent van Zalinge</a>.
-                </p>
-            </section>
-
-            <summary>
-                <p>I hope this list was interesting for you!</p>
-                <p>If you liked any of the photos, please support the photographers or visit <a href="https://unsplash.com">unsplash.com</a></p>
-            </summary>
-        </div>
-    </main>
-
-    <footer>
-        <p>please don't steal this website :)</p>
-        <p>jonwow '19 &copy;</p>
-    </footer>
-</body>
-
+        <footer>
+            <p>please don't steal this website :)</p>
+            <p>jonwow '19 &copy;</p>
+        </footer>
+    </body>
 </html>
